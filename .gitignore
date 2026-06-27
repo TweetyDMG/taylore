@@ -1,0 +1,44 @@
+# === Compiled binaries ===
+*.exe
+*.exe.manifest
+*.dll
+*.lib
+*.a
+*.so
+*.dylib
+*.obj
+*.o
+
+# === Archives / Distributives ===
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.rar
+
+# === Build directories ===
+build/
+out/
+cmake-build-*/
+.vs/
+
+# === IDE & Editor ===
+.idea/
+.vscode/
+*.sln
+*.suo
+*.user
+*.vcxproj*
+*.swp
+*.swo
+*~
+
+# === OS ===
+.DS_Store
+Thumbs.db
+
+# === CMake generated ===
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
